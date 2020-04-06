@@ -30,11 +30,16 @@
   text-anchor: middle;
 }
 
-.stateCircle {
-  fill: #89bdd3;
-  stroke: #e3e3e3;
+.circle {
+  fill: rgb(82, 86, 138);
+  stroke: #000000;
+  stroke-width: 2px;
 }
 
+.circText {
+  font-size: 12px;
+  color: #000;
+}
 .chart {
   display: block;
   margin: 0;
@@ -42,14 +47,14 @@
 
 .d3-tip {
   padding: 6px;
-  font-size: 12px;
-  line-height: 1;
+  font-size: 1px;
+  line-height: 10;
   line-height: 1.5em;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-transform: capitalize;
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 4px;
+  background: rgba(30, 52, 179, 0.8);
+  border-radius: 10px;
 }
 
 /* Mobile Rules */
